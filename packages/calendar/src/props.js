@@ -111,7 +111,7 @@ const commonDefaultProps = {
     legends: [],
     tooltip: CalendarTooltip,
 
-    weekStartsOnMonday: false,
+    weekStartsOnMonday: true,
 }
 
 export const CalendarDefaultProps = {
