@@ -59,6 +59,8 @@ const Calendar = ({
 
     legends,
     role,
+
+    weekStartsOnMonday,
 }) => {
     const theme = useTheme()
     const { margin, innerWidth, innerHeight, outerWidth, outerHeight } = useDimensions(
@@ -76,6 +78,7 @@ const Calendar = ({
         monthSpacing,
         daySpacing,
         align,
+        weekStartsOnMonday,
     })
     const colorScaleFn = useColorScale({ data, minValue, maxValue, colors, colorScale })
     const monthLegends = useMonthLegends({

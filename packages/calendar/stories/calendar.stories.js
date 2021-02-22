@@ -25,6 +25,8 @@ const stories = storiesOf('Calendar', module)
 
 stories.add('default', () => <Calendar {...commonProps} />)
 
+stories.add('week starts on monday', () => <Calendar weekStartsOnMonday {...commonProps} />)
+
 const japaneseMonths = [
     '一月',
     '二月',
