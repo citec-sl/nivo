@@ -65,6 +65,8 @@ const commonPropTypes = {
             itemCount: PropTypes.number.isRequired,
         })
     ).isRequired,
+
+    weekStartsOnMonday: PropTypes.bool,
 }
 
 export const CalendarPropTypes = {
@@ -108,6 +110,8 @@ const commonDefaultProps = {
 
     legends: [],
     tooltip: CalendarTooltip,
+
+    weekStartsOnMonday: true,
 }
 
 export const CalendarDefaultProps = {

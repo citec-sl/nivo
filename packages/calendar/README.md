@@ -1,6 +1,8 @@
-# `@nivo/calendar`
+# `@citec-sl/nivo-calendar`
 
-[![version](https://img.shields.io/npm/v/@nivo/calendar.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/calendar)
+Forked from `@nivo/calendar`.
+
+[![version](https://img.shields.io/npm/v/@citec-sl/nivo-calendar.svg?style=flat-square)](https://www.npmjs.com/package/@citec-sl/nivo-calendar)
 
 ## Calendar
 

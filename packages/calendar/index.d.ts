@@ -10,7 +10,7 @@ import * as React from 'react'
 import { Dimensions, Theme, Box, BoxAlign } from '@nivo/core'
 import { LegendProps } from '@nivo/legends'
 
-declare module '@nivo/calendar' {
+declare module '@citec-sl/nivo-calendar' {
     export type DateOrString = string | Date
 
     export interface CalendarDatum {
